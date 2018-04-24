@@ -1,0 +1,28 @@
+{
+	"name": "Node-API",
+	"version": "1.0.0",
+	"description": "API experiment",
+	"scripts": {
+		"start": "cd dist && node server.js",
+		"watch": "nodemon start",
+		"build": "./build.sh"
+	},
+	"author": [
+		{
+			"name": "Matyss"
+		}
+	],
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"API",
+		"Express",
+		"REST",
+		"Mongoose",
+		"MongoDB"
+	],
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"nodemon": "^1.17.2"
+	}
+}

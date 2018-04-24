@@ -1,0 +1,26 @@
+{
+    "name": "Node-API",
+    "version": "1.0.0",
+    "description": "API experiment",
+    "main": "server.js",
+    "author": "Matyss",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3",
+        "mongoose": "^5.0.11"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-core": "^6.26.0",
+        "babel-plugin-transform-regenerator": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "nodemon": "^1.17.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    }
+}
